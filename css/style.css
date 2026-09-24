@@ -1,0 +1,58 @@
+body{
+    background: color #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: black;
+    line-height: 1.6;
+}
+
+header{
+    background: rgb(29, 29, 229);
+    color: whitesmoke;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.search-bar button{
+    background:yellow;
+}
+
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+h1,h2,h3{
+    color: rgb(29, 29, 229);
+}
+
+h1{
+    font-size: 2.5rem;
+    border-bottom: 2px solid yellow;
+    width: fit-content;
+    padding-bottom: 0.3rem;
+}
+
+main{
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.about-container, .skills-container, .contact-container, .education-container, .projects-container{
+    background: whitesmoke;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
