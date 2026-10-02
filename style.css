@@ -374,39 +374,65 @@ article a:hover {
     color: white;
 }
 
+#find-me-on {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
 .find-me-on-container {
     background-color: #ffffff;
     color: #172b4d;
-    padding: 2rem;
+    padding: 0;
     border-radius: 15px;
     border-left: 6px solid #0645ad;
     box-shadow: 0 5px 15px rgba(6, 69, 173, 0.15);
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
-.find-me-on-container h2 {
+.find-me-on-container h1 {
     color: #0645ad;
+    border-bottom: 4px solid #ffd43b;
+    width: fit-content;
+    padding: 12px 18px 6px;
+    margin: 0 0 10px;
+    font-size: 1.8rem;
 }
 
-.find-me-on-container p {
-    color: #172b4d;
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 18px 18px;
 }
 
-.find-me-on-container a {
-    color: #172b4d;
-    font-weight: bold;
-    text-decoration: none;
-    margin-right: 25px;
-    padding: 8px 12px;
+.social-links a {
     background-color: #fff4b8;
+    border: 1px solid #ffd43b;
     border-radius: 6px;
-    display: inline-block;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s ease;
 }
 
-.find-me-on-container a:hover {
-    color: #0645ad;
-    background-color: #ffd43b;
+.social-links a img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
 }
+
+.social-links a:hover {
+    background-color: #ffd43b;
+    border-color: #0645ad;
+    transform: translateY(-2px);
+}
+
 
 .education-container table {
     width: 100%;
