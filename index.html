@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <script src="slider.js" ></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,8 +22,9 @@
             <div class="nav-container">
                 <nav>
                     <ul>
-                        <li><a href="#about">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
+                        <li><a href="#image-slider">Image-Slider</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -43,6 +45,25 @@
     </header>
 
     <main>
+
+    <section id="home">
+
+    <div class="home-container">
+
+        <h1>Welcome to My Portfolio</h1>
+
+        <p>
+            Hello, I’m <b>Urmila Guragain</b>, an IT student passionate about
+            technology, web development, and UI/UX design.
+        </p>
+
+        <p>
+            Explore my portfolio to learn more about my skills, education,
+            projects, and interests.
+        </p>
+
+    </div>
+    </section>
 
         <section id="about">
 
@@ -65,6 +86,28 @@
             </div>
 
         </section>
+
+        <section id="image-slider">
+
+            <div class="slider-container">
+
+                <h1>Image Slider</h1>
+
+                <div class="slider">
+                    <div class="slider-track">
+                        <div class="slide"><img src="images/code.jpg" alt="Code"></div>
+                        <div class="slide"><img src="images/database.jpg" alt="Database"></div>
+                        <div class="slide"><img src="images/developer.jpg" alt="Developer"></div>
+                        <div class="slide"><img src="images/programming.jpg" alt="Programming"></div>
+                    </div>
+                    <button class="slider-btn prev">&#10094;</button>
+                    <button class="slider-btn next">&#10095;</button>
+
+                    <div class="slider-dots"></div>
+                </div>
+
+            </div>
+            </section>
 
         <section id="skills">
 
@@ -266,5 +309,4 @@
     </footer>
 
 </body>
-
 </html>
